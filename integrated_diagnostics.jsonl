@@ -1,0 +1,25 @@
+{
+  "motif": {
+    "precision": 0.6079265899956227,
+    "random_expected_precision": 0.4254651997238398,
+    "graphs_with_motif": 40
+  }
+}
+{
+  "robust_weight": 0.0,
+  "fair_weight": 0.0,
+  "random_edit_stability": {
+    "mean_absolute_probability_drift": 0.01122539376228815,
+    "trials": 8,
+    "attack": "random 5% edge removal, not model-aware"
+  }
+}
+{
+  "robust_weight": 0.1,
+  "fair_weight": 0.05,
+  "random_edit_stability": {
+    "mean_absolute_probability_drift": 0.009984271484427154,
+    "trials": 8,
+    "attack": "random 5% edge removal, not model-aware"
+  }
+}

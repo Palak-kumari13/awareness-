@@ -1,0 +1,575 @@
+{
+  "protocol": "validation-only fairness selection; unchanged test splits; fixed configuration grid",
+  "results": [
+    {
+      "seed": 0,
+      "selected_index": 0,
+      "used_baseline_fallback": true,
+      "validation_candidates": [
+        {
+          "config": {
+            "fair_weight": 0.0,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 1.0,
+            "auroc": 1.0,
+            "positive_rate": 0.5,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 8,
+            "group_0_accuracy": 1.0,
+            "group_0_positive_rate": 0.75,
+            "group_0_tpr": 1.0,
+            "group_0_fpr": 0.0,
+            "group_1_n": 12,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.3333333333333333,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.4166666666666667,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.03,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 1.0,
+            "auroc": 1.0,
+            "positive_rate": 0.5,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 8,
+            "group_0_accuracy": 1.0,
+            "group_0_positive_rate": 0.75,
+            "group_0_tpr": 1.0,
+            "group_0_fpr": 0.0,
+            "group_1_n": 12,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.3333333333333333,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.4166666666666667,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.1,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 1.0,
+            "auroc": 1.0,
+            "positive_rate": 0.5,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 8,
+            "group_0_accuracy": 1.0,
+            "group_0_positive_rate": 0.75,
+            "group_0_tpr": 1.0,
+            "group_0_fpr": 0.0,
+            "group_1_n": 12,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.3333333333333333,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.4166666666666667,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.03,
+            "robust_weight": 0.05
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 1.0,
+            "auroc": 1.0,
+            "positive_rate": 0.5,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 8,
+            "group_0_accuracy": 1.0,
+            "group_0_positive_rate": 0.75,
+            "group_0_tpr": 1.0,
+            "group_0_fpr": 0.0,
+            "group_1_n": 12,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.3333333333333333,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.4166666666666667,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.0,
+            "robust_weight": 0.05
+          },
+          "threshold": 0.6028133034706116,
+          "metrics": {
+            "balanced_accuracy": 1.0,
+            "auroc": 1.0,
+            "positive_rate": 0.5,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 8,
+            "group_0_accuracy": 1.0,
+            "group_0_positive_rate": 0.75,
+            "group_0_tpr": 1.0,
+            "group_0_fpr": 0.0,
+            "group_1_n": 12,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.3333333333333333,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.4166666666666667,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        }
+      ],
+      "selected_test": {
+        "balanced_accuracy": 0.9,
+        "auroc": 0.9500000000000001,
+        "positive_rate": 0.6,
+        "collapsed": false,
+        "groups_known": 20,
+        "n": 20,
+        "group_0_n": 9,
+        "group_0_accuracy": 0.7777777777777778,
+        "group_0_positive_rate": 0.5555555555555556,
+        "group_0_tpr": 1.0,
+        "group_0_fpr": 0.3333333333333333,
+        "group_1_n": 11,
+        "group_1_accuracy": 1.0,
+        "group_1_positive_rate": 0.6363636363636364,
+        "group_1_tpr": 1.0,
+        "group_1_fpr": 0.0,
+        "dp_gap": 0.08080808080808077,
+        "eo_gap": 0.0,
+        "equalized_odds_gap": 0.3333333333333333
+      },
+      "baseline_test": {
+        "balanced_accuracy": 0.9,
+        "auroc": 0.9500000000000001,
+        "positive_rate": 0.6,
+        "collapsed": false,
+        "groups_known": 20,
+        "n": 20,
+        "group_0_n": 9,
+        "group_0_accuracy": 0.7777777777777778,
+        "group_0_positive_rate": 0.5555555555555556,
+        "group_0_tpr": 1.0,
+        "group_0_fpr": 0.3333333333333333,
+        "group_1_n": 11,
+        "group_1_accuracy": 1.0,
+        "group_1_positive_rate": 0.6363636363636364,
+        "group_1_tpr": 1.0,
+        "group_1_fpr": 0.0,
+        "dp_gap": 0.08080808080808077,
+        "eo_gap": 0.0,
+        "equalized_odds_gap": 0.3333333333333333
+      },
+      "test_nonregression_observed": true
+    },
+    {
+      "seed": 1,
+      "selected_index": 0,
+      "used_baseline_fallback": true,
+      "validation_candidates": [
+        {
+          "config": {
+            "fair_weight": 0.0,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.43793246150016785,
+          "metrics": {
+            "balanced_accuracy": 0.9444444444444444,
+            "auroc": 0.9595959595959596,
+            "positive_rate": 0.4,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 9,
+            "group_0_accuracy": 0.8888888888888888,
+            "group_0_positive_rate": 0.5555555555555556,
+            "group_0_tpr": 0.8333333333333334,
+            "group_0_fpr": 0.0,
+            "group_1_n": 11,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.2727272727272727,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2828282828282829,
+            "eo_gap": 0.16666666666666663,
+            "equalized_odds_gap": 0.16666666666666663
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.03,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.04520045593380928,
+          "metrics": {
+            "balanced_accuracy": 0.9090909090909092,
+            "auroc": 0.9595959595959596,
+            "positive_rate": 0.55,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 9,
+            "group_0_accuracy": 0.8888888888888888,
+            "group_0_positive_rate": 0.7777777777777778,
+            "group_0_tpr": 1.0,
+            "group_0_fpr": 0.3333333333333333,
+            "group_1_n": 11,
+            "group_1_accuracy": 0.9090909090909091,
+            "group_1_positive_rate": 0.36363636363636365,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.125,
+            "dp_gap": 0.41414141414141414,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.20833333333333331
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.1,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 0.9444444444444444,
+            "auroc": 0.9393939393939394,
+            "positive_rate": 0.4,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 9,
+            "group_0_accuracy": 0.8888888888888888,
+            "group_0_positive_rate": 0.5555555555555556,
+            "group_0_tpr": 0.8333333333333334,
+            "group_0_fpr": 0.0,
+            "group_1_n": 11,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.2727272727272727,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2828282828282829,
+            "eo_gap": 0.16666666666666663,
+            "equalized_odds_gap": 0.16666666666666663
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.03,
+            "robust_weight": 0.05
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 0.9444444444444444,
+            "auroc": 0.9393939393939394,
+            "positive_rate": 0.4,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 9,
+            "group_0_accuracy": 0.8888888888888888,
+            "group_0_positive_rate": 0.5555555555555556,
+            "group_0_tpr": 0.8333333333333334,
+            "group_0_fpr": 0.0,
+            "group_1_n": 11,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.2727272727272727,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2828282828282829,
+            "eo_gap": 0.16666666666666663,
+            "equalized_odds_gap": 0.16666666666666663
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.0,
+            "robust_weight": 0.05
+          },
+          "threshold": 0.5152364373207092,
+          "metrics": {
+            "balanced_accuracy": 0.9444444444444444,
+            "auroc": 0.9696969696969697,
+            "positive_rate": 0.4,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 9,
+            "group_0_accuracy": 0.8888888888888888,
+            "group_0_positive_rate": 0.5555555555555556,
+            "group_0_tpr": 0.8333333333333334,
+            "group_0_fpr": 0.0,
+            "group_1_n": 11,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.2727272727272727,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2828282828282829,
+            "eo_gap": 0.16666666666666663,
+            "equalized_odds_gap": 0.16666666666666663
+          }
+        }
+      ],
+      "selected_test": {
+        "balanced_accuracy": 0.9444444444444444,
+        "auroc": 0.9696969696969697,
+        "positive_rate": 0.4,
+        "collapsed": false,
+        "groups_known": 20,
+        "n": 20,
+        "group_0_n": 11,
+        "group_0_accuracy": 1.0,
+        "group_0_positive_rate": 0.45454545454545453,
+        "group_0_tpr": 1.0,
+        "group_0_fpr": 0.0,
+        "group_1_n": 9,
+        "group_1_accuracy": 0.8888888888888888,
+        "group_1_positive_rate": 0.3333333333333333,
+        "group_1_tpr": 0.75,
+        "group_1_fpr": 0.0,
+        "dp_gap": 0.12121212121212122,
+        "eo_gap": 0.25,
+        "equalized_odds_gap": 0.25
+      },
+      "baseline_test": {
+        "balanced_accuracy": 0.9444444444444444,
+        "auroc": 0.9696969696969697,
+        "positive_rate": 0.4,
+        "collapsed": false,
+        "groups_known": 20,
+        "n": 20,
+        "group_0_n": 11,
+        "group_0_accuracy": 1.0,
+        "group_0_positive_rate": 0.45454545454545453,
+        "group_0_tpr": 1.0,
+        "group_0_fpr": 0.0,
+        "group_1_n": 9,
+        "group_1_accuracy": 0.8888888888888888,
+        "group_1_positive_rate": 0.3333333333333333,
+        "group_1_tpr": 0.75,
+        "group_1_fpr": 0.0,
+        "dp_gap": 0.12121212121212122,
+        "eo_gap": 0.25,
+        "equalized_odds_gap": 0.25
+      },
+      "test_nonregression_observed": true
+    },
+    {
+      "seed": 2,
+      "selected_index": 0,
+      "used_baseline_fallback": true,
+      "validation_candidates": [
+        {
+          "config": {
+            "fair_weight": 0.0,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 0.95,
+            "auroc": 0.95,
+            "positive_rate": 0.45,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 12,
+            "group_0_accuracy": 0.9166666666666666,
+            "group_0_positive_rate": 0.3333333333333333,
+            "group_0_tpr": 0.8,
+            "group_0_fpr": 0.0,
+            "group_1_n": 8,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.625,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2916666666666667,
+            "eo_gap": 0.19999999999999996,
+            "equalized_odds_gap": 0.19999999999999996
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.03,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5488064885139465,
+          "metrics": {
+            "balanced_accuracy": 0.9,
+            "auroc": 0.9400000000000001,
+            "positive_rate": 0.4,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 12,
+            "group_0_accuracy": 0.9166666666666666,
+            "group_0_positive_rate": 0.3333333333333333,
+            "group_0_tpr": 0.8,
+            "group_0_fpr": 0.0,
+            "group_1_n": 8,
+            "group_1_accuracy": 0.875,
+            "group_1_positive_rate": 0.5,
+            "group_1_tpr": 0.8,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.16666666666666669,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.1,
+            "robust_weight": 0.0
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 0.95,
+            "auroc": 0.95,
+            "positive_rate": 0.45,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 12,
+            "group_0_accuracy": 0.9166666666666666,
+            "group_0_positive_rate": 0.3333333333333333,
+            "group_0_tpr": 0.8,
+            "group_0_fpr": 0.0,
+            "group_1_n": 8,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.625,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2916666666666667,
+            "eo_gap": 0.19999999999999996,
+            "equalized_odds_gap": 0.19999999999999996
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.03,
+            "robust_weight": 0.05
+          },
+          "threshold": 0.54218989610672,
+          "metrics": {
+            "balanced_accuracy": 0.9,
+            "auroc": 0.9400000000000001,
+            "positive_rate": 0.4,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 12,
+            "group_0_accuracy": 0.9166666666666666,
+            "group_0_positive_rate": 0.3333333333333333,
+            "group_0_tpr": 0.8,
+            "group_0_fpr": 0.0,
+            "group_1_n": 8,
+            "group_1_accuracy": 0.875,
+            "group_1_positive_rate": 0.5,
+            "group_1_tpr": 0.8,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.16666666666666669,
+            "eo_gap": 0.0,
+            "equalized_odds_gap": 0.0
+          }
+        },
+        {
+          "config": {
+            "fair_weight": 0.0,
+            "robust_weight": 0.05
+          },
+          "threshold": 0.5,
+          "metrics": {
+            "balanced_accuracy": 0.95,
+            "auroc": 0.95,
+            "positive_rate": 0.45,
+            "collapsed": false,
+            "groups_known": 20,
+            "n": 20,
+            "group_0_n": 12,
+            "group_0_accuracy": 0.9166666666666666,
+            "group_0_positive_rate": 0.3333333333333333,
+            "group_0_tpr": 0.8,
+            "group_0_fpr": 0.0,
+            "group_1_n": 8,
+            "group_1_accuracy": 1.0,
+            "group_1_positive_rate": 0.625,
+            "group_1_tpr": 1.0,
+            "group_1_fpr": 0.0,
+            "dp_gap": 0.2916666666666667,
+            "eo_gap": 0.19999999999999996,
+            "equalized_odds_gap": 0.19999999999999996
+          }
+        }
+      ],
+      "selected_test": {
+        "balanced_accuracy": 0.898989898989899,
+        "auroc": 0.9696969696969697,
+        "positive_rate": 0.45,
+        "collapsed": false,
+        "groups_known": 20,
+        "n": 20,
+        "group_0_n": 7,
+        "group_0_accuracy": 0.7142857142857143,
+        "group_0_positive_rate": 0.42857142857142855,
+        "group_0_tpr": 0.6666666666666666,
+        "group_0_fpr": 0.25,
+        "group_1_n": 13,
+        "group_1_accuracy": 1.0,
+        "group_1_positive_rate": 0.46153846153846156,
+        "group_1_tpr": 1.0,
+        "group_1_fpr": 0.0,
+        "dp_gap": 0.032967032967033016,
+        "eo_gap": 0.33333333333333337,
+        "equalized_odds_gap": 0.33333333333333337
+      },
+      "baseline_test": {
+        "balanced_accuracy": 0.898989898989899,
+        "auroc": 0.9696969696969697,
+        "positive_rate": 0.45,
+        "collapsed": false,
+        "groups_known": 20,
+        "n": 20,
+        "group_0_n": 7,
+        "group_0_accuracy": 0.7142857142857143,
+        "group_0_positive_rate": 0.42857142857142855,
+        "group_0_tpr": 0.6666666666666666,
+        "group_0_fpr": 0.25,
+        "group_1_n": 13,
+        "group_1_accuracy": 1.0,
+        "group_1_positive_rate": 0.46153846153846156,
+        "group_1_tpr": 1.0,
+        "group_1_fpr": 0.0,
+        "dp_gap": 0.032967032967033016,
+        "eo_gap": 0.33333333333333337,
+        "equalized_odds_gap": 0.33333333333333337
+      },
+      "test_nonregression_observed": true
+    }
+  ]
+}

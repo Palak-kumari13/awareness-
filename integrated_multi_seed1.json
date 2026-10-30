@@ -1,0 +1,64 @@
+{
+  "task": "multilabel",
+  "train": {
+    "per_label": [
+      {
+        "auroc": 1.0,
+        "f1": 0.684931506849315,
+        "positive_rate": 0.2604166666666667,
+        "balanced_accuracy": 0.7604166666666667
+      },
+      {
+        "auroc": 0.7348090277777778,
+        "f1": 0.5135135135135135,
+        "positive_rate": 0.2708333333333333,
+        "balanced_accuracy": 0.625
+      }
+    ],
+    "macro_f1": 0.5992225101814143,
+    "micro_f1": 0.5986394557823129,
+    "subset_accuracy": 0.53125,
+    "n": 96
+  },
+  "val": {
+    "per_label": [
+      {
+        "auroc": 1.0,
+        "f1": 0.6086956521739131,
+        "positive_rate": 0.21875,
+        "balanced_accuracy": 0.71875
+      },
+      {
+        "auroc": 0.80859375,
+        "f1": 0.5,
+        "positive_rate": 0.25,
+        "balanced_accuracy": 0.625
+      }
+    ],
+    "macro_f1": 0.5543478260869565,
+    "micro_f1": 0.5531914893617021,
+    "subset_accuracy": 0.46875,
+    "n": 32
+  },
+  "test": {
+    "per_label": [
+      {
+        "auroc": 1.0,
+        "f1": 0.47619047619047616,
+        "positive_rate": 0.15625,
+        "balanced_accuracy": 0.65625
+      },
+      {
+        "auroc": 0.828125,
+        "f1": 0.5217391304347826,
+        "positive_rate": 0.21875,
+        "balanced_accuracy": 0.65625
+      }
+    ],
+    "macro_f1": 0.4989648033126294,
+    "micro_f1": 0.5,
+    "subset_accuracy": 0.46875,
+    "n": 32
+  },
+  "train_loss_last": 0.6912939169754585
+}

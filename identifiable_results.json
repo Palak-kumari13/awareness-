@@ -1,0 +1,113 @@
+[
+  {
+    "seed": 0,
+    "epochs_completed": 18,
+    "prediction": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "positive_prediction_rate": 0.5
+    },
+    "verification": {
+      "max_edge_permutation_probability_change": 2.0372681319713593e-10,
+      "no_constant_predictions": true
+    },
+    "explainability": {
+      "motif_precision_positive": 0.33017948746681214,
+      "random_precision_matched": 0.08844030612707138,
+      "difference": 0.24173918133974076,
+      "top3_motif_precision": 1.0,
+      "top3_random_precision": 0.1053333364725113,
+      "note": "Motif-node attributes explicitly identify candidate nodes; this is a diagnostic, not general causal discovery."
+    },
+    "fairness": {
+      "demographic_parity_gap": 0.0,
+      "note": "Sensitive groups randomly assigned; there is no trained fairness objective or causal fairness guarantee."
+    },
+    "robustness": {
+      "clean_accuracy": 1.0,
+      "background_one_flip_accuracy": 1.0,
+      "mean_absolute_probability_drift": 1.5113889076019404e-05,
+      "note": "Constrained random single-edge flip outside marked trio; not an adversarial robustness certificate."
+    },
+    "transparency": {
+      "mean_probability_change_on_concept_ablation": 0.4999736785667994,
+      "note": "Concept values are consumed by prediction head; ablation measures model dependence."
+    }
+  },
+  {
+    "seed": 1,
+    "epochs_completed": 18,
+    "prediction": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "positive_prediction_rate": 0.5
+    },
+    "verification": {
+      "max_edge_permutation_probability_change": 0.0005609393119812012,
+      "no_constant_predictions": true
+    },
+    "explainability": {
+      "motif_precision_positive": 0.36634092286229136,
+      "random_precision_matched": 0.11154420001804828,
+      "difference": 0.2547967228442431,
+      "top3_motif_precision": 1.0,
+      "top3_random_precision": 0.08933333599567414,
+      "note": "Motif-node attributes explicitly identify candidate nodes; this is a diagnostic, not general causal discovery."
+    },
+    "fairness": {
+      "demographic_parity_gap": 0.14005602240896353,
+      "note": "Sensitive groups randomly assigned; there is no trained fairness objective or causal fairness guarantee."
+    },
+    "robustness": {
+      "clean_accuracy": 1.0,
+      "background_one_flip_accuracy": 1.0,
+      "mean_absolute_probability_drift": 5.238494435616303e-05,
+      "note": "Constrained random single-edge flip outside marked trio; not an adversarial robustness certificate."
+    },
+    "transparency": {
+      "mean_probability_change_on_concept_ablation": 0.4998083085562803,
+      "note": "Concept values are consumed by prediction head; ablation measures model dependence."
+    }
+  },
+  {
+    "seed": 2,
+    "epochs_completed": 18,
+    "prediction": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "f1": 1.0,
+      "auc": 1.0,
+      "positive_prediction_rate": 0.5
+    },
+    "verification": {
+      "max_edge_permutation_probability_change": 0.0,
+      "no_constant_predictions": true
+    },
+    "explainability": {
+      "motif_precision_positive": 0.2916580882668495,
+      "random_precision_matched": 0.09019890105724335,
+      "difference": 0.20145918720960618,
+      "top3_motif_precision": 1.0,
+      "top3_random_precision": 0.08400000250339508,
+      "note": "Motif-node attributes explicitly identify candidate nodes; this is a diagnostic, not general causal discovery."
+    },
+    "fairness": {
+      "demographic_parity_gap": 0.020008003201280544,
+      "note": "Sensitive groups randomly assigned; there is no trained fairness objective or causal fairness guarantee."
+    },
+    "robustness": {
+      "clean_accuracy": 1.0,
+      "background_one_flip_accuracy": 1.0,
+      "mean_absolute_probability_drift": 0.0,
+      "note": "Constrained random single-edge flip outside marked trio; not an adversarial robustness certificate."
+    },
+    "transparency": {
+      "mean_probability_change_on_concept_ablation": 0.4998607111556339,
+      "note": "Concept values are consumed by prediction head; ablation measures model dependence."
+    }
+  }
+]

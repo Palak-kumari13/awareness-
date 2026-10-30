@@ -1,0 +1,7 @@
+torch>=2.2
+numpy>=1.24
+scikit-learn>=1.3
+networkx>=3.0
+matplotlib>=3.7
+# Optional for TU datasets:
+# torch-geometric>=2.5
